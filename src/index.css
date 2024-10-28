@@ -1,0 +1,28 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    scroll-behavior:smooth;
+    outline: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+section{
+    min-height: 100vh;
+    padding: 10rem 8% 2rem;
+}
+
+:root{
+    --primary-color:#f42c37;
+    --black-color:rgba(0, 0, 0, 0.473);
+    --yellow-color:#fdc62e;
+    --green-color:#2dcc6f;
+    --blue-color:#1376f4;
+    --white-color:#eeeeee;
+}

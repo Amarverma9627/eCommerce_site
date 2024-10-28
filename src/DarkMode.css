@@ -1,0 +1,33 @@
+.main-light {
+    position: relative;
+}
+
+.light-section {
+    width: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5rem;
+    cursor: pointer;
+    transition: all 0.8s;
+}
+
+.dark-section {
+    position: absolute;
+    top: 0rem;
+    width: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5rem;
+    cursor: pointer;
+    transition: all 0.8s;
+}
+
+.low {
+    opacity: 1;
+}
+
+.high {
+    opacity: 0;
+}
